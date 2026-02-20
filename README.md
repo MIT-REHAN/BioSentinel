@@ -67,59 +67,64 @@ BioSentinel is an AI-powered web application that analyzes patient genetic data 
 
 # 🗂 Project Folder Structure
 BioSentinel/
-├── app/
+│
+├── app/                          # Next.js App Router
 │   ├── api/
 │   │   └── analyze/
-│   │       └── route.ts
+│   │       └── route.ts          # API route for VCF analysis & risk prediction
+│   │
 │   ├── dashboard/
-│   │   └── page.tsx
+│   │   └── page.tsx              # Dashboard UI for results visualization
+│   │
 │   ├── login/
-│   │   └── page.tsx
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
+│   │   └── page.tsx              # Authentication / login page
+│   │
+│   ├── layout.tsx                # Root layout configuration
+│   ├── page.tsx                  # Landing / Home page
+│   └── globals.css               # Global styles (App-level)
 │
-├── components/
-│   ├── analysis-results.tsx
-│   ├── drug-input.tsx
-│   ├── file-upload.tsx
-│   ├── theme-provider.tsx
-│   └── ui/
+├── components/                   # Reusable UI & feature components
+│   ├── analysis-results.tsx      # Displays pharmacogenomic risk output
+│   ├── drug-input.tsx            # Drug name input (multi-drug support)
+│   ├── file-upload.tsx           # VCF file upload & validation component
+│   ├── theme-provider.tsx        # Theme and UI provider
+│   │
+│   └── ui/                       # ShadCN / UI primitives
 │       ├── button.tsx
 │       ├── card.tsx
 │       ├── input.tsx
 │       ├── alert.tsx
 │       ├── dialog.tsx
 │       ├── badge.tsx
-│       └── ...
+│       └── ...                   # Other reusable UI components
 │
-├── lib/
-│   ├── vcf-parser.ts
-│   ├── auth-context.tsx
-│   └── utils.ts
+├── lib/                          # Core logic & utilities
+│   ├── vcf-parser.ts             # VCF parsing & variant extraction logic
+│   ├── auth-context.tsx          # Authentication context provider
+│   └── utils.ts                  # Helper utility functions
 │
-├── hooks/
-│   ├── use-mobile.ts
-│   └── use-toast.ts
+├── hooks/                        # Custom React hooks
+│   ├── use-mobile.ts             # Responsive/mobile detection hook
+│   └── use-toast.ts              # Toast notification hook
 │
-├── public/
+├── public/                       # Static assets
 │   ├── apple-icon.png
 │   ├── placeholder-logo.svg
 │   ├── placeholder-user.jpg
-│   └── ...
+│   └── ...                       # Other static images/icons
 │
-├── styles/
-│   └── globals.css
+├── styles/                       # Additional styling configs
+│   └── globals.css               # Global stylesheet (extra styles)
 │
-├── .env.example
-├── .gitignore
-├── components.json
-├── next.config.mjs
-├── package.json
-├── pnpm-lock.yaml
-├── postcss.config.mjs
-├── tsconfig.json
-└── README.md
+├── .env.example                  # Environment variables template
+├── .gitignore                    # Git ignore rules
+├── components.json               # UI component configuration
+├── next.config.mjs               # Next.js configuration
+├── package.json                  # Project dependencies & scripts
+├── pnpm-lock.yaml                # Lock file (pnpm)
+├── postcss.config.mjs            # PostCSS configuration (Tailwind support)
+├── tsconfig.json                 # TypeScript configuration
+└── README.md                     # Project documentation
 
 
 ---
