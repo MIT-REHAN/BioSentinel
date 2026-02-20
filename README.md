@@ -14,7 +14,8 @@ Multi-city Hackathon • HealthTech • Precision Medicine
 
 * 🌐 Live Deployed App: https://v0-json-summary-generation.vercel.app/
 
-* 🎥 LinkedIn Demo Video (2–5 min): [ADD LINKEDIN VIDEO LINK]
+* 🎥 LinkedIn Demo Video (2–5 min): https://www.linkedin.com/posts/rehan-azim-64602a224_rift2026-biosentinel-pharmacogenomics-activity-7430412799207579648-job8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADg-qRYBgzQ7naszArSq2LwNRtFlE864KT0
+*  Youtube Demo Video (2–5 min): https://youtu.be/617Hav78p2s
 * 💻 GitHub Repository: https://github.com/MIT-REHAN/BioSentinel/
 
 Hashtags: #RIFT2026 #BioSentinel #Pharmacogenomics #AIinHealthcare
